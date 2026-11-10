@@ -1,0 +1,22 @@
+# MATLAB and Simulink generated files
+slprj/
+codegen/
+*.slxc
+*.asv
+*.autosave
+*.m~
+*.mex*
+*.mlappinstall
+
+# Simulation artifacts and temporary files
+*.tmp
+*.log
+*.bak
+*.cache
+*.mat~
+*.zip
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
