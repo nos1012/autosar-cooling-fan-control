@@ -29,6 +29,8 @@ Engine-management logical ECU ── CAN model ── Fan-control logical ECU
                                           Arduino + MOSFET + DC fan
 ```
 
+Temporary system diagram (editable Draw.io source): [CoolingSystem.drawio](docs/diagrams/CoolingSystem.drawio).
+
 The AUTOSAR Classic concepts are represented in the Simulink/AUTOSAR model. Arduino provides the hardware I/O demonstration. Physical CAN is only claimed when MCP2515/transceiver hardware is actually integrated and tested.
 
 ## Repository layout

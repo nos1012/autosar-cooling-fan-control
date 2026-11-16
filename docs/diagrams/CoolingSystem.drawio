@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="T2YMPjAAglFIyxSr2hzF">
+    <mxGraphModel dx="1892" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lDuis1cfrAL-siF2Zxal-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="320" width="850" x="-200" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-19" edge="1" parent="1" source="lDuis1cfrAL-siF2Zxal-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" target="lDuis1cfrAL-siF2Zxal-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-24" edge="1" parent="1" source="lDuis1cfrAL-siF2Zxal-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lDuis1cfrAL-siF2Zxal-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cooling fan ECU" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-8" edge="1" parent="1" source="lDuis1cfrAL-siF2Zxal-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lDuis1cfrAL-siF2Zxal-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Temperature sensor" vertex="1">
+          <mxGeometry height="60" width="120" x="-180" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Dashboard ECU" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cooling Fan Control System" vertex="1">
+          <mxGeometry height="30" width="160" x="145" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-14" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;&lt;code&gt;Engine_Coolant_Temperature&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="-100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-20" edge="1" parent="1" source="lDuis1cfrAL-siF2Zxal-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" target="lDuis1cfrAL-siF2Zxal-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CAN Bus" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-26" edge="1" parent="1" source="lDuis1cfrAL-siF2Zxal-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lDuis1cfrAL-siF2Zxal-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Fan Driver" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cooling Fan" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-25" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;PWM_Command&#xa;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="130" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-27" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;pre dir=&quot;ltr&quot;&gt;&lt;code&gt;Motor_Drive_Output&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="370" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-37" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="92" width="177.5" x="217.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-16" parent="lDuis1cfrAL-siF2Zxal-37" style="text;whiteSpace=wrap;html=1;" value="&lt;code&gt;Fan_Status&lt;/code&gt;" vertex="1">
+          <mxGeometry height="20" width="90" x="2.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-17" parent="lDuis1cfrAL-siF2Zxal-37" style="text;whiteSpace=wrap;html=1;" value="&lt;code&gt;Overtemperature_Warning&lt;/code&gt;" vertex="1">
+          <mxGeometry height="36" width="175" x="2.5" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-15" parent="lDuis1cfrAL-siF2Zxal-37" style="text;whiteSpace=wrap;html=1;" value="&lt;code&gt;Engine_Temperature&lt;/code&gt;" vertex="1">
+          <mxGeometry height="36" width="138.1578947368421" as="geometry" />
+        </mxCell>
+        <mxCell id="lDuis1cfrAL-siF2Zxal-33" parent="lDuis1cfrAL-siF2Zxal-37" style="text;whiteSpace=wrap;html=1;" value="Fan_PWM" vertex="1">
+          <mxGeometry height="30" width="82.5" x="2.5" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
